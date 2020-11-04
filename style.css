@@ -1,0 +1,89 @@
+body {
+  background-color : #fcf1f1;
+  font-family : 'Montserrat', sans-serif;
+  color : grey ;
+  font-size : 15px ;
+  line-height : 2 ;
+}
+
+h1 {
+  color : black;
+  font-family : 'Montserrat', sans-serif;
+  font-size : 20px;
+  line-height : 1;
+
+}
+
+h2 {
+  color : #707070 ;
+  font-family : 'Montserrat', sans-serif;
+  font-size : 18px;
+  line-height : 1;
+
+}
+
+a{
+  color : blue ;
+  text-decoration : none ;
+  font-size : 13px;
+}
+
+a:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.container {
+  width : 100%;
+}
+
+.card {
+  width : 50% ;
+  margin : 10px auto ;
+  text-align : center;
+  background : white;
+  border : solid 2px rgb(209, 209, 209) ;
+  border-radius : 4px ;
+  box-shadow :0,5px 12px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width : 200px;
+  height : 300px;
+  border-radius : 50px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 540px) {
+   /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  img {
+    width : 100px;
+    height : 150px;
+  }
+}
+
+@media (max-width: 740px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .list-inline {
+    display : inline-grid;
+    padding : 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
